@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D12A20409600058A0D /* QuetzalBankApp.swift */; };
+		F1F108D42A20409600058A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D32A20409600058A0D /* ContentView.swift */; };
+		F1F108D62A20409700058A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F108D52A20409700058A0D /* Assets.xcassets */; };
+		F1F108D92A20409700058A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F108D82A20409700058A0D /* Preview Assets.xcassets */; };
+		F1F108E32A20409700058A0D /* QuetzalBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108E22A20409700058A0D /* QuetzalBankTests.swift */; };
+		F1F108ED2A20409700058A0D /* QuetzalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108EC2A20409700058A0D /* QuetzalBankUITests.swift */; };
+		F1F108EF2A20409700058A0D /* QuetzalBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108EE2A20409700058A0D /* QuetzalBankUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1F108DF2A20409700058A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F108C62A20409600058A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F108CD2A20409600058A0D;
+			remoteInfo = QuetzalBank;
+		};
+		F1F108E92A20409700058A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F108C62A20409600058A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F108CD2A20409600058A0D;
+			remoteInfo = QuetzalBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1F108CE2A20409600058A0D /* QuetzalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuetzalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F108D12A20409600058A0D /* QuetzalBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankApp.swift; sourceTree = "<group>"; };
+		F1F108D32A20409600058A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1F108D52A20409700058A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F108D82A20409700058A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1F108DE2A20409700058A0D /* QuetzalBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuetzalBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F108E22A20409700058A0D /* QuetzalBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankTests.swift; sourceTree = "<group>"; };
+		F1F108E82A20409700058A0D /* QuetzalBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuetzalBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F108EC2A20409700058A0D /* QuetzalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankUITests.swift; sourceTree = "<group>"; };
+		F1F108EE2A20409700058A0D /* QuetzalBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F108CB2A20409600058A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108DB2A20409700058A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108E52A20409700058A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1F108C52A20409600058A0D = {
+			isa = PBXGroup;
+			children = (
+				F1F108D02A20409600058A0D /* QuetzalBank */,
+				F1F108E12A20409700058A0D /* QuetzalBankTests */,
+				F1F108EB2A20409700058A0D /* QuetzalBankUITests */,
+				F1F108CF2A20409600058A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F108CF2A20409600058A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F108CE2A20409600058A0D /* QuetzalBank.app */,
+				F1F108DE2A20409700058A0D /* QuetzalBankTests.xctest */,
+				F1F108E82A20409700058A0D /* QuetzalBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F108D02A20409600058A0D /* QuetzalBank */ = {
+			isa = PBXGroup;
+			children = (
+				F1F108D12A20409600058A0D /* QuetzalBankApp.swift */,
+				F1F108D32A20409600058A0D /* ContentView.swift */,
+				F1F108D52A20409700058A0D /* Assets.xcassets */,
+				F1F108D72A20409700058A0D /* Preview Content */,
+			);
+			path = QuetzalBank;
+			sourceTree = "<group>";
+		};
+		F1F108D72A20409700058A0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1F108D82A20409700058A0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1F108E12A20409700058A0D /* QuetzalBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F108E22A20409700058A0D /* QuetzalBankTests.swift */,
+			);
+			path = QuetzalBankTests;
+			sourceTree = "<group>";
+		};
+		F1F108EB2A20409700058A0D /* QuetzalBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F108EC2A20409700058A0D /* QuetzalBankUITests.swift */,
+				F1F108EE2A20409700058A0D /* QuetzalBankUITestsLaunchTests.swift */,
+			);
+			path = QuetzalBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F108CD2A20409600058A0D /* QuetzalBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F108F22A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBank" */;
+			buildPhases = (
+				F1F108CA2A20409600058A0D /* Sources */,
+				F1F108CB2A20409600058A0D /* Frameworks */,
+				F1F108CC2A20409600058A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuetzalBank;
+			productName = QuetzalBank;
+			productReference = F1F108CE2A20409600058A0D /* QuetzalBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1F108DD2A20409700058A0D /* QuetzalBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F108F52A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBankTests" */;
+			buildPhases = (
+				F1F108DA2A20409700058A0D /* Sources */,
+				F1F108DB2A20409700058A0D /* Frameworks */,
+				F1F108DC2A20409700058A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F108E02A20409700058A0D /* PBXTargetDependency */,
+			);
+			name = QuetzalBankTests;
+			productName = QuetzalBankTests;
+			productReference = F1F108DE2A20409700058A0D /* QuetzalBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1F108E72A20409700058A0D /* QuetzalBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F108F82A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBankUITests" */;
+			buildPhases = (
+				F1F108E42A20409700058A0D /* Sources */,
+				F1F108E52A20409700058A0D /* Frameworks */,
+				F1F108E62A20409700058A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F108EA2A20409700058A0D /* PBXTargetDependency */,
+			);
+			name = QuetzalBankUITests;
+			productName = QuetzalBankUITests;
+			productReference = F1F108E82A20409700058A0D /* QuetzalBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F108C62A20409600058A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1F108CD2A20409600058A0D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F1F108DD2A20409700058A0D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F1F108CD2A20409600058A0D;
+					};
+					F1F108E72A20409700058A0D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F1F108CD2A20409600058A0D;
+					};
+				};
+			};
+			buildConfigurationList = F1F108C92A20409600058A0D /* Build configuration list for PBXProject "QuetzalBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F108C52A20409600058A0D;
+			productRefGroup = F1F108CF2A20409600058A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F108CD2A20409600058A0D /* QuetzalBank */,
+				F1F108DD2A20409700058A0D /* QuetzalBankTests */,
+				F1F108E72A20409700058A0D /* QuetzalBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F108CC2A20409600058A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F108D92A20409700058A0D /* Preview Assets.xcassets in Resources */,
+				F1F108D62A20409700058A0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108DC2A20409700058A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108E62A20409700058A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F108CA2A20409600058A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
+				F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108DA2A20409700058A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F108E32A20409700058A0D /* QuetzalBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F108E42A20409700058A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F108ED2A20409700058A0D /* QuetzalBankUITests.swift in Sources */,
+				F1F108EF2A20409700058A0D /* QuetzalBankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1F108E02A20409700058A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F108CD2A20409600058A0D /* QuetzalBank */;
+			targetProxy = F1F108DF2A20409700058A0D /* PBXContainerItemProxy */;
+		};
+		F1F108EA2A20409700058A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F108CD2A20409600058A0D /* QuetzalBank */;
+			targetProxy = F1F108E92A20409700058A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1F108F02A20409700058A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1F108F12A20409700058A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F108F32A20409700058A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F108F42A20409700058A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1F108F62A20409700058A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuetzalBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuetzalBank";
+			};
+			name = Debug;
+		};
+		F1F108F72A20409700058A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuetzalBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuetzalBank";
+			};
+			name = Release;
+		};
+		F1F108F92A20409700058A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuetzalBank;
+			};
+			name = Debug;
+		};
+		F1F108FA2A20409700058A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quetzal.QuetzalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuetzalBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F108C92A20409600058A0D /* Build configuration list for PBXProject "QuetzalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F108F02A20409700058A0D /* Debug */,
+				F1F108F12A20409700058A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F108F22A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F108F32A20409700058A0D /* Debug */,
+				F1F108F42A20409700058A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F108F52A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F108F62A20409700058A0D /* Debug */,
+				F1F108F72A20409700058A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F108F82A20409700058A0D /* Build configuration list for PBXNativeTarget "QuetzalBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F108F92A20409700058A0D /* Debug */,
+				F1F108FA2A20409700058A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F108C62A20409600058A0D /* Project object */;
+}
