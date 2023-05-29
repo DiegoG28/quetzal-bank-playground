@@ -33,8 +33,6 @@ struct LoginView: View {
                 .foregroundColor(Color.black)
                 .background(Color.gray)
             
-            
-            
         }
             
         

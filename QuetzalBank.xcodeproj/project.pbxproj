@@ -75,20 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F18BBA0F2A25419600BBEC83 /* Receive */ = {
+		F1BBD3AB2A25693600A76964 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F18BBA102A2541D500BBEC83 /* ReceiveView.swift */,
-			);
-			path = Receive;
-			sourceTree = "<group>";
-		};
-		F18BBA122A25422A00BBEC83 /* Login */ = {
-			isa = PBXGroup;
-			children = (
 				F18BBA132A25423700BBEC83 /* LoginView.swift */,
 			);
-			path = Login;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1BBD3AC2A25693D00A76964 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F1BBD3AD2A25696300A76964 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		F1F108C52A20409600058A0D = {
@@ -114,8 +121,9 @@
 		F1F108D02A20409600058A0D /* QuetzalBank */ = {
 			isa = PBXGroup;
 			children = (
-				F18BBA122A25422A00BBEC83 /* Login */,
-				F18BBA0F2A25419600BBEC83 /* Receive */,
+				F1BBD3AD2A25696300A76964 /* Models */,
+				F1BBD3AC2A25693D00A76964 /* ViewModels */,
+				F1BBD3AB2A25693600A76964 /* Views */,
 				F1F108D12A20409600058A0D /* QuetzalBankApp.swift */,
 				F1F108D32A20409600058A0D /* ContentView.swift */,
 				F1F108D52A20409700058A0D /* Assets.xcassets */,
