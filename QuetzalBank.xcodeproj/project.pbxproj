@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA102A2541D500BBEC83 /* ReceiveView.swift */; };
 		F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA132A25423700BBEC83 /* LoginView.swift */; };
+		F1BBD3AF2A256B0800A76964 /* TeacherLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */; };
 		F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D12A20409600058A0D /* QuetzalBankApp.swift */; };
 		F1F108D42A20409600058A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D32A20409600058A0D /* ContentView.swift */; };
 		F1F108D62A20409700058A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F108D52A20409700058A0D /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		F18BBA102A2541D500BBEC83 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		F18BBA132A25423700BBEC83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginView.swift; sourceTree = "<group>"; };
 		F1F108CE2A20409600058A0D /* QuetzalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuetzalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F108D12A20409600058A0D /* QuetzalBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankApp.swift; sourceTree = "<group>"; };
 		F1F108D32A20409600058A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				F18BBA102A2541D500BBEC83 /* ReceiveView.swift */,
 				F18BBA132A25423700BBEC83 /* LoginView.swift */,
+				F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
 				F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */,
 				F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */,
+				F1BBD3AF2A256B0800A76964 /* TeacherLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
