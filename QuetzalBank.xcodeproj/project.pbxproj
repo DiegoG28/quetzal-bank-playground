@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA102A2541D500BBEC83 /* ReceiveView.swift */; };
 		F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA132A25423700BBEC83 /* LoginView.swift */; };
+		F1A349AB2A2581660090DE73 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A349AA2A2581660090DE73 /* UserViewModel.swift */; };
+		F1A349AD2A2584680090DE73 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A349AC2A2584680090DE73 /* UserView.swift */; };
 		F1BBD3AF2A256B0800A76964 /* TeacherLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */; };
+		F1BBD3B52A257A8B00A76964 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD3B42A257A8B00A76964 /* UserController.swift */; };
+		F1BBD3B82A257C9900A76964 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD3B62A257C9900A76964 /* UserModel.xcdatamodeld */; };
 		F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D12A20409600058A0D /* QuetzalBankApp.swift */; };
 		F1F108D42A20409600058A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F108D32A20409600058A0D /* ContentView.swift */; };
 		F1F108D62A20409700058A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F108D52A20409700058A0D /* Assets.xcassets */; };
@@ -39,7 +43,11 @@
 /* Begin PBXFileReference section */
 		F18BBA102A2541D500BBEC83 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		F18BBA132A25423700BBEC83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F1A349AA2A2581660090DE73 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F1A349AC2A2584680090DE73 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginView.swift; sourceTree = "<group>"; };
+		F1BBD3B42A257A8B00A76964 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		F1BBD3B72A257C9900A76964 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 		F1F108CE2A20409600058A0D /* QuetzalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuetzalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F108D12A20409600058A0D /* QuetzalBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuetzalBankApp.swift; sourceTree = "<group>"; };
 		F1F108D32A20409600058A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +109,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F1BBD3B02A257A2200A76964 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F1BBD3B62A257C9900A76964 /* UserModel.xcdatamodeld */,
+				F1BBD3B42A257A8B00A76964 /* UserController.swift */,
+				F1A349AA2A2581660090DE73 /* UserViewModel.swift */,
+				F1A349AC2A2584680090DE73 /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		F1F108C52A20409600058A0D = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +143,7 @@
 		F1F108D02A20409600058A0D /* QuetzalBank */ = {
 			isa = PBXGroup;
 			children = (
+				F1BBD3B02A257A2200A76964 /* User */,
 				F1BBD3AD2A25696300A76964 /* Models */,
 				F1BBD3AC2A25693D00A76964 /* ViewModels */,
 				F1BBD3AB2A25693600A76964 /* Views */,
@@ -290,10 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BBD3B82A257C9900A76964 /* UserModel.xcdatamodeld in Sources */,
+				F1A349AB2A2581660090DE73 /* UserViewModel.swift in Sources */,
 				F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */,
 				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
 				F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */,
+				F1BBD3B52A257A8B00A76964 /* UserController.swift in Sources */,
 				F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */,
+				F1A349AD2A2584680090DE73 /* UserView.swift in Sources */,
 				F1BBD3AF2A256B0800A76964 /* TeacherLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +637,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1BBD3B62A257C9900A76964 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1BBD3B72A257C9900A76964 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = F1BBD3B72A257C9900A76964 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F1F108C62A20409600058A0D /* Project object */;
 }

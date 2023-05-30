@@ -14,21 +14,39 @@ struct TeacherLoginView: View {
                 text: $password)
                 NavigationLink(destination: MainView()) {
                     Text("Login")
-                }
+                }.simultaneousGesture(
+                    TapGesture()
+                        .onEnded{
+                        print("Tapped")
+                        UserDefaults.standard
+                            .set(username, forKey: "user")
+                        UserDefaults.standard
+                            .set(password, forKey: "pass")
+                        })
                 Toggle(isOn: $keep) {
                     Text("Mantener sesion")
                 }
+            }.onDisappear{
+                print("tilin")
+                username = ""
+                password = ""
+                
             }
         }
     }
 }
 
 struct MainView: View {
+    @State var user = UserDefaults.standard.string(forKey: "user") ?? ""
+    @State var pass = UserDefaults.standard.string(forKey: "pass") ?? ""
     var body: some View {
         VStack {
             Text("Data view")
-            Text("Data 1")
-            Text("Data 2")
+            Text(user)
+            Text(pass)
+        }.onAppear{
+            user = UserDefaults.standard.string(forKey: "user") ?? ""
+            pass = UserDefaults.standard.string(forKey: "pass") ?? ""
         }
     }
 }
