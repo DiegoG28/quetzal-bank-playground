@@ -27,7 +27,6 @@ struct TeacherLoginView: View {
                     Text("Mantener sesion")
                 }
             }.onDisappear{
-                print("tilin")
                 username = ""
                 password = ""
                 

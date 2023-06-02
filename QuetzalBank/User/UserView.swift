@@ -9,14 +9,23 @@ import SwiftUI
 
 struct UserView: View {
     @StateObject var uvm: UserViewModel = UserViewModel()
+    @State var shouldUpdateUser: Bool = false
+    @State var userToUpdate: UserEntity?
+    
     var body: some View {
         VStack {
             Text("Users")
             HStack {
                 TextField("Username", text: $uvm.c_username)
                 TextField("Password", text: $uvm.c_password)
-                Button("Save") {
-                    uvm.createUser()
+                if (shouldUpdateUser) {
+                    Button("Edit") {
+                        uvm.updateUser(user: userToUpdate!)
+                    }
+                } else {
+                    Button("Save") {
+                        uvm.createUser()
+                    }
                 }
             }
             if (uvm.users.count == 0) {
@@ -29,6 +38,12 @@ struct UserView: View {
                     }
                     Button("Delete") {
                         uvm.deleteUser(user: user)
+                    }
+                    Button("Edit"){
+                        shouldUpdateUser = true
+                        userToUpdate = user
+                        uvm.c_username = user.username ?? ""
+                        uvm.c_password = user.password ?? ""
                     }
                 }
             }
