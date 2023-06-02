@@ -30,12 +30,17 @@ class UserViewModel: ObservableObject {
     }
     
     func updateUser(user: UserEntity) {
-        dataService.update(entity: user)
+        dataService.update(entity: user, username: c_username, password: c_password)
         getAllUsers()
     }
     
     func deleteUser(user: UserEntity) {
         dataService.delete(entity: user)
         getAllUsers()
+    }
+    
+    func clearState() {
+        c_password = ""
+        c_username = ""
     }
 }

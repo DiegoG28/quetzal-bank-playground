@@ -21,6 +21,7 @@ struct UserView: View {
                 if (shouldUpdateUser) {
                     Button("Edit") {
                         uvm.updateUser(user: userToUpdate!)
+                        uvm.clearState()
                     }
                 } else {
                     Button("Save") {
