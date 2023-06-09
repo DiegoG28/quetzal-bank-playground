@@ -22,29 +22,35 @@ struct UserView: View {
                     Button("Edit") {
                         uvm.updateUser(user: userToUpdate!)
                         uvm.clearState()
+                        shouldUpdateUser = false
                     }
                 } else {
                     Button("Save") {
                         uvm.createUser()
-                    }
+                    }.buttonStyle(.bordered)
                 }
             }
             if (uvm.users.count == 0) {
                 Text("No hay datos")
             } else {
                 List (uvm.users) { user in
-                    HStack {
-                        Text(user.username ?? "")
-                        Text(user.password ?? "")
-                    }
-                    Button("Delete") {
-                        uvm.deleteUser(user: user)
-                    }
-                    Button("Edit"){
-                        shouldUpdateUser = true
-                        userToUpdate = user
-                        uvm.c_username = user.username ?? ""
-                        uvm.c_password = user.password ?? ""
+                    VStack {
+                        HStack {
+                            Text(user.username ?? "")
+                            Text(user.password ?? "")
+                        }
+                        
+                        HStack {
+                            Button("Delete") {
+                                uvm.deleteUser(user: user)
+                            }.buttonStyle(.bordered)
+                            Button("Edit"){
+                                shouldUpdateUser = true
+                                userToUpdate = user
+                                uvm.c_username = user.username ?? ""
+                                uvm.c_password = user.password ?? ""
+                            }.buttonStyle(.bordered)
+                        }
                     }
                 }
             }

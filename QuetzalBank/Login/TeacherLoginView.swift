@@ -26,6 +26,14 @@ struct TeacherLoginView: View {
                 Toggle(isOn: $keep) {
                     Text("Mantener sesion")
                 }
+                Button("Test"){
+                    Task {
+                        let response = try await CentralBankAPI()
+                            .login(request: LoginRequest(username: "Test 1", password: "Test 2"))
+                        print(response)
+                    }
+                    
+                }
             }.onDisappear{
                 username = ""
                 password = ""

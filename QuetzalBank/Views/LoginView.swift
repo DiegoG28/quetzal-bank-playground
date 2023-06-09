@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
-    
+    let gradient = LinearGradient(colors: [Color.purple, Color.blue],
+                                  startPoint: .topLeading,
+                                  endPoint: .bottomTrailing)
     @State private var nombre :
     String = ""
     
@@ -32,6 +34,17 @@ struct LoginView: View {
             .frame(width: 500)
                 .foregroundColor(Color.black)
                 .background(Color.gray)
+            
+            Button {
+            } label: {
+                Text("The Gradient")
+                    .padding()
+                    .background {
+                        Capsule()
+                            .stroke(gradient, lineWidth: 2)
+                            .saturation(1.8)
+                    }
+            }
             
         }
             
