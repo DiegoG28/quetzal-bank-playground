@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D40DCAB2A32AF1000D93A12 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */; };
 		F133F17C2A2EB8760098FD23 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17B2A2EB8760098FD23 /* LoginResponse.swift */; };
 		F133F17E2A2EB8D40098FD23 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */; };
 		F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA102A2541D500BBEC83 /* ReceiveView.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F133F17B2A2EB8760098FD23 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		F18BBA102A2541D500BBEC83 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				F18BBA102A2541D500BBEC83 /* ReceiveView.swift */,
 				F18BBA132A25423700BBEC83 /* LoginView.swift */,
+				0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */,
 				F133F17E2A2EB8D40098FD23 /* LoginRequest.swift in Sources */,
 				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
+				0D40DCAB2A32AF1000D93A12 /* DashboardView.swift in Sources */,
 				F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */,
 				F1BBD3B52A257A8B00A76964 /* UserController.swift in Sources */,
 				F1AB4C822A297B8700773BF1 /* MovementsView.swift in Sources */,
