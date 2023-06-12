@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isUserLoggedIn: Bool = false
+    @State private var username: String = ""
     var body: some View {
         VStack {
-            Text("Dasboard")
-            Button("Movimientos"){
-                print("Ingresar")
-            }.buttonStyle(.bordered)
-            Button("Perfil"){
-                print("Ingresar")
-            }.buttonStyle(.bordered)
+            if (isUserLoggedIn) {
+                ReceiveView(isUserLoggedIn: $isUserLoggedIn, username: $username)
+            } else {
+                LoginView(isUserLoggedIn: $isUserLoggedIn, username: $username)
+            }
         }
         .padding()
     }
