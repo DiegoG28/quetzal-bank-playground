@@ -13,6 +13,12 @@ struct LoginView: View {
                                   endPoint: .bottomTrailing)
     @State private var nombre :
     String = ""
+    @Binding var isUserLoggedIn: Bool
+    @Binding var username: String
+    @StateObject var uvm: UserViewModel = UserViewModel()
+    @State var shouldUpdateUser: Bool = false
+    @State var userToUpdate: UserEntity?
+    
     
     var body: some View {
         VStack{
@@ -22,14 +28,22 @@ struct LoginView: View {
             
             Text("QuetzalBank").padding(50)
             
-            GroupBox(label: Text("Number:")) {
-                TextField("Number", text: $nombre)
+            GroupBox(label: Text("Usuario:")) {
+                TextField("Usuario", text: $uvm.c_username)
             }
             GroupBox(label: Text("Password:")) {
-                TextField("Password", text: $nombre)
+                TextField("Password", text: $uvm.c_password)
             }
             Button("Ingresar"){
-                print("Ingresar")
+                uvm.createUser()
+            }
+            .frame(width: 500)
+                .foregroundColor(Color.black)
+                .background(Color.gray)
+            Button("Guardar"){
+                uvm.createUser()
+                username = uvm.c_username
+                isUserLoggedIn = true
             }
             .frame(width: 500)
                 .foregroundColor(Color.black)
@@ -52,8 +66,3 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
-    }
-}

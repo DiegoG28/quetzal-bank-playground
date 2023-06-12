@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ReceiveView: View {
+    @Binding var isUserLoggedIn: Bool
+    @Binding var username: String
+    @StateObject var uvm: UserViewModel = UserViewModel()
     var body: some View {
             ZStack(alignment: .topLeading) {
                 Color.white
@@ -18,12 +21,14 @@ struct ReceiveView: View {
                     Button(action: {
                         
                     }) {
-                        Text("ALEX FRANCISCO TORRES HERNANDEZ")
+                        
+                        Text(username)
                             .foregroundColor(.white)
                             .padding()
                             .background(Color.gray)
-                            .cornerRadius(10)
-                    }
+                            .cornerRadius(10)                        }
+                            
+                    
                     Text("CLABE:").padding()
                     Button(action: {
                         
@@ -40,8 +45,3 @@ struct ReceiveView: View {
     }
 }
 
-struct ReceiveView_Previews: PreviewProvider {
-    static var previews: some View {
-        ReceiveView()
-    }
-}
