@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D40DCAB2A32AF1000D93A12 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */; };
+		0DED04B82A3BE37A0070D9AF /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DED04B72A3BE37A0070D9AF /* NotificationHandler.swift */; };
+		0DED04BA2A3BED8D0070D9AF /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DED04B92A3BED8D0070D9AF /* TransferView.swift */; };
 		F133F17C2A2EB8760098FD23 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17B2A2EB8760098FD23 /* LoginResponse.swift */; };
 		F133F17E2A2EB8D40098FD23 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */; };
 		F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA102A2541D500BBEC83 /* ReceiveView.swift */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		0DED04B72A3BE37A0070D9AF /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		0DED04B92A3BED8D0070D9AF /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		F133F17B2A2EB8760098FD23 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		F18BBA102A2541D500BBEC83 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				F18BBA102A2541D500BBEC83 /* ReceiveView.swift */,
 				F18BBA132A25423700BBEC83 /* LoginView.swift */,
 				0D40DCAA2A32AF1000D93A12 /* DashboardView.swift */,
+				0DED04B92A3BED8D0070D9AF /* TransferView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				F1BBD3AE2A256B0800A76964 /* TeacherLoginView.swift */,
 				F133F17B2A2EB8760098FD23 /* LoginResponse.swift */,
 				F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */,
+				0DED04B72A3BE37A0070D9AF /* NotificationHandler.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -353,6 +359,8 @@
 				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
 				0D40DCAB2A32AF1000D93A12 /* DashboardView.swift in Sources */,
 				F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */,
+				0DED04BA2A3BED8D0070D9AF /* TransferView.swift in Sources */,
+				0DED04B82A3BE37A0070D9AF /* NotificationHandler.swift in Sources */,
 				F1BBD3B52A257A8B00A76964 /* UserController.swift in Sources */,
 				F1AB4C822A297B8700773BF1 /* MovementsView.swift in Sources */,
 				F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */,
@@ -519,6 +527,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID authetication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -547,6 +556,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID authetication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

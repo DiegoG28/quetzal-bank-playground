@@ -28,9 +28,9 @@ struct TeacherLoginView: View {
                 }
                 Button("Test"){
                     Task {
-                        let response = try await CentralBankAPI()
+                        let rs = try await CentralBankAPI()
                             .login(request: LoginRequest(username: "Test 1", password: "Test 2"))
-                        print(response)
+                        print(rs)
                     }
                     
                 }
