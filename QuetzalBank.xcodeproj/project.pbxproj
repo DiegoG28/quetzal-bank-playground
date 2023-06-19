@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F133F17C2A2EB8760098FD23 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17B2A2EB8760098FD23 /* LoginResponse.swift */; };
 		F133F17E2A2EB8D40098FD23 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */; };
+		F1510DD02A3BE422002AB75E /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1510DCF2A3BE422002AB75E /* NotificationHandler.swift */; };
+		F1510DD22A3BED75002AB75E /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1510DD12A3BED75002AB75E /* TransferView.swift */; };
 		F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA102A2541D500BBEC83 /* ReceiveView.swift */; };
 		F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BBA132A25423700BBEC83 /* LoginView.swift */; };
 		F1A349AB2A2581660090DE73 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A349AA2A2581660090DE73 /* UserViewModel.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		F133F17B2A2EB8760098FD23 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		F133F17D2A2EB8D40098FD23 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		F1510DCF2A3BE422002AB75E /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		F1510DD12A3BED75002AB75E /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		F18BBA102A2541D500BBEC83 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		F18BBA132A25423700BBEC83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F1A349AA2A2581660090DE73 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
@@ -95,11 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1510DCE2A3BE408002AB75E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				F1510DCF2A3BE422002AB75E /* NotificationHandler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		F1BBD3AB2A25693600A76964 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F18BBA102A2541D500BBEC83 /* ReceiveView.swift */,
 				F18BBA132A25423700BBEC83 /* LoginView.swift */,
+				F1510DD12A3BED75002AB75E /* TransferView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +165,7 @@
 		F1F108D02A20409600058A0D /* QuetzalBank */ = {
 			isa = PBXGroup;
 			children = (
+				F1510DCE2A3BE408002AB75E /* Notifications */,
 				F1FBB2B12A297A7700599C19 /* Login */,
 				F1FBB2AE2A29799B00599C19 /* Movements */,
 				F1BBD3B02A257A2200A76964 /* User */,
@@ -348,11 +362,13 @@
 				F18BBA112A2541D500BBEC83 /* ReceiveView.swift in Sources */,
 				F133F17E2A2EB8D40098FD23 /* LoginRequest.swift in Sources */,
 				F1F108D42A20409600058A0D /* ContentView.swift in Sources */,
+				F1510DD02A3BE422002AB75E /* NotificationHandler.swift in Sources */,
 				F18BBA142A25423700BBEC83 /* LoginView.swift in Sources */,
 				F1BBD3B52A257A8B00A76964 /* UserController.swift in Sources */,
 				F1AB4C822A297B8700773BF1 /* MovementsView.swift in Sources */,
 				F1F108D22A20409600058A0D /* QuetzalBankApp.swift in Sources */,
 				F1A349AD2A2584680090DE73 /* UserView.swift in Sources */,
+				F1510DD22A3BED75002AB75E /* TransferView.swift in Sources */,
 				F1FBB2B02A2979D300599C19 /* Movement.swift in Sources */,
 				F1BBD3AF2A256B0800A76964 /* TeacherLoginView.swift in Sources */,
 			);
@@ -515,6 +531,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,6 +560,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuetzalBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

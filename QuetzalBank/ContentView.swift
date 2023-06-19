@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isUserLoggedIn: Bool = false
+    @State private var defaults: UserDefaults = UserDefaults()
     @State private var username: String = ""
     var body: some View {
         VStack {
             if (isUserLoggedIn) {
-                ReceiveView(isUserLoggedIn: $isUserLoggedIn, username: $username)
+                ReceiveView(isUserLoggedIn: $isUserLoggedIn, defaults: $defaults, username: $username)
             } else {
-                LoginView(isUserLoggedIn: $isUserLoggedIn, username: $username)
+                LoginView(isUserLoggedIn: $isUserLoggedIn, defaults: $defaults, username: $username)
             }
         }
         .padding()
