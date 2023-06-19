@@ -2,8 +2,7 @@
 //  TransferView.swift
 //  QuetzalBank
 //
-//  Created by imac 10 on 15/06/23.
-//
+//  Created by Diego Gutiérrez on 15/06/23.
 
 import SwiftUI
 
@@ -17,11 +16,11 @@ struct TransferView: View {
         VStack{
             Text("Transferencia")
             TextField("Clabe",
-            text: $clabe)
+                      text: $clabe)
             TextField("Concepto",
-            text: $concepto)
+                      text: $concepto)
             TextField("Monto",
-            text: $monto)
+                      text: $monto)
             Button("Enviar"){
                 ntf.subtitle = concepto
                 ntf.body = "La transferencia a \(clabe) por \(monto) se ha realizado."

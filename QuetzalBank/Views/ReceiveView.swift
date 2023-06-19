@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ReceiveView: View {
     @Binding var isUserLoggedIn: Bool
+    @Binding var defaults: UserDefaults
     @Binding var username: String
     @StateObject var uvm: UserViewModel = UserViewModel()
     var body: some View {
@@ -22,7 +23,7 @@ struct ReceiveView: View {
                         
                     }) {
                         
-                        Text(username)
+                        Text(defaults.string(forKey: "username") ?? username)
                             .foregroundColor(.white)
                             .padding()
                             .background(Color.gray)
@@ -38,6 +39,9 @@ struct ReceiveView: View {
                             .padding()
                             .background(Color.gray)
                             .cornerRadius(10)
+                    }
+                    Button("Salir") {
+                        isUserLoggedIn = false
                     }
             }
                 .padding()
